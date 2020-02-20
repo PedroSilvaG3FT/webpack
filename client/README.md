@@ -8,3 +8,11 @@
 
 # PASSO 2 - INDICANDO PRIMEIRO MODULO A SER CARREADO
     ## Criar aquivo: webpack.config.js (É um modulo do node express)
+
+# PASSO 3 - INSTALANDO BABEL-LOADER
+    ## Instalar babel-loader: ' npm install babel-loader@7.1.0 --save-dev '
+    ## Criar modulo no arquivo de configuração 
+        - Incluir regra para o modulo
+    ## Remover do arquivo .babelrc : "transform-es2015-modules-systemjs",
+    ## Remover dependencias: ' npm uninstall babel-plugin-transform-es2015-modules-systemjs --save-dev '
+    

@@ -15,4 +15,11 @@
         - Incluir regra para o modulo
     ## Remover do arquivo .babelrc : "transform-es2015-modules-systemjs",
     ## Remover dependencias: ' npm uninstall babel-plugin-transform-es2015-modules-systemjs --save-dev '
+
+### RESUMO ATÉ AQUI ###
+- O papel do webpack
+- Instalação através do npm
+- Configuração do webpack.config.js
+- Como executar webpack através de um npm script
+- Instalação e configuração de um loader
     

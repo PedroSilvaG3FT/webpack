@@ -1,3 +1,7 @@
-Não esqueçam de entrar dentro da pasta `client` e executar o comando `npm install` antes de utilizar o projeto.
+#PASSO 1 - PREPARANDO TERRENO PARA WEBPACK
 
-Para ativar a compilação em tempo real, dentro de `client`, execute o comando `npm run watch`.
+    ## Remover pasta app
+    ## Remover system.js importado em index.html
+    ## Remover babel do package.json:  ' npm uninstall babel-cli --save-dev '
+    ## Remover systemjs do package.json:  ' npm uninstall systemjs --save '
+    ## Instalar webpack e babel-core: ' npm install webpack@3.1.0 babel-core@6.25.0 --save-dev '
